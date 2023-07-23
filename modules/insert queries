@@ -1,0 +1,40 @@
+//INSERT INTO book (b_name, genre, author, edition, publish_date, isbn, language, description, page_count, material_type, cover)
+VALUES ('The Great Gatsby', 'Fiction', 'F. Scott Fitzgerald', 'First Edition', '2022-05-10', '9781234567890', 'English', 'A classic American novel about the Jazz Age', 256, 1, '/path/to/cover_image.jpg');
+
+INSERT INTO book (b_name, genre, author, edition, publish_date, isbn, language, description, page_count, material_type, cover)
+VALUES ('To Kill a Mockingbird', 'Fiction', 'Harper Lee', '50th Anniversary Edition', '2019-09-15', '9780987654321', 'English', 'A story of racial injustice in the American South', 320, 1, '/path/to/cover_image.jpg');
+
+-- Add more book insertions as needed
+--------------------------------------------------------------------------------------
+INSERT INTO user (first_name, last_name, dob, mob, yob, phone_no, e_mail, password, occupation, organisation, country, `state/city`, street, flat_no, zipcode, p_picture, created_at, updated_at, user_type)
+VALUES ('John', 'Doe', '1990-03-15', 3, 1990, 1234567890, 'johndoe@example.com', 'hashed_password', 'Engineer', 'ABC Corp', 'United States', 'California', '123 Main St', 101, 12345, '/path/to/profile_picture.jpg', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 'regular_user');
+
+INSERT INTO user (first_name, last_name, dob, mob, yob, phone_no, e_mail, password, occupation, organisation, country, `state/city`, street, flat_no, zipcode, p_picture, created_at, updated_at, user_type)
+VALUES ('Jane', 'Smith', '1985-08-25', 8, 1985, 9876543210, 'janesmith@example.com', 'hashed_password', 'Teacher', 'XYZ School', 'United States', 'New York', '456 Oak Ave', 201, 54321, '/path/to/profile_picture.jpg', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 'admin');
+
+-- Add more user insertions as needed
+----------------------------------------------------------------------------------------
+INSERT INTO category (material_type)
+VALUES ('Paperback');
+
+INSERT INTO category (material_type)
+VALUES ('Hardcover');
+
+-- Add more category insertions as needed
+----------------------------------------------------------------------------------------
+INSERT INTO book_user (book_id, user_id)
+VALUES (1, 1);
+
+INSERT INTO book_user (book_id, user_id)
+VALUES (2, 1);
+
+-- Add more book_user insertions as needed
+----------------------------------------------------------------------------------------
+
+INSERT INTO user_type (type_name)
+VALUES ('admin');
+
+INSERT INTO user_type (type_name)
+VALUES ('regular_user');
+
+-- Add more user_type insertions as needed
