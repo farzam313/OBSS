@@ -1,0 +1,41 @@
+{
+   "id":1,
+   "first_name":"Ali",
+   "last_name":"farzam",
+   "dob":"11",
+   "mob":"11",
+   "yob":"2000",
+   "phone_no":"0771297261",
+   "Email":"farzam@gmail.com",
+   "password":"123456",
+   "occupation":"student",
+   "organisation":"pune university",
+   "country":"Afghanistan",
+   "state_or_city":"bamiyan",
+   "street":"20 A main road",
+   "flat_no":"30",
+   "zip_code":"570017",
+   "p_picture":"./c/f.jpg",
+   "created_at":"2023-07-13 10:30:00",
+   "updated_at":"2023-07-13 10:30:00",
+   "user_type":"Admin"
+}
+
+
+,
+   
+{
+ "b_name" : "war and peace",
+ "genre" : "philosophy",
+ "author" : "Author Leo Tolstoy",
+ "edition" : "third edition",       
+ "publish_date" : "01-01-1935",
+ "isbn" : "978-3-16-148410-0",
+ "language": "English",
+  "description": "A philosophical novel exploring the themes of war and society.",
+  "page_count": 1000,
+  "material_type": 1,
+  "cover": "drive c:/books/book_cover.jpg"
+}
+
+to select multi column in in vs code.
